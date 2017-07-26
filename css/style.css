@@ -1,3 +1,9 @@
+/*----
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+---*/
 html,body{
 	font-family: 'Lato', sans-serif;
 }
@@ -207,7 +213,7 @@ a.arrow{
 	font-size:1.8em;
 }
 .circle{
-	color:#FFFAF0;
+	color:#FFF;
 }
 #canvas{
 	position:relative;
@@ -725,7 +731,6 @@ p.copy-right a{
 		text-align:center;
 	}
 	.bannerhead h3 {
-		float: right;
 		font-size: 1.6em;
 		margin: 0.3em 0 0.3em;
 	}
@@ -734,9 +739,8 @@ p.copy-right a{
 		text-align:center;
 	}
 	.bannerlogo {
-		float: left;
+		float: none;
 		margin-top: 0em;
-		margin-right: 10px;
 		text-align: center;
 	}
 	.skill-grid h3 {
@@ -769,7 +773,6 @@ p.copy-right a{
 	}
 	.banner-info {
 		width: 80%;
-		overflow: hidden;
 	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 100%;
@@ -871,7 +874,7 @@ p.copy-right a{
 		text-align:center;
 	}
 	.bannerlogo {
-		float: left;
+		float: none;
 		margin-top: 0em;
 		text-align: center;
 	}
@@ -884,7 +887,6 @@ p.copy-right a{
 	}
 	.bannerhead h2 {
 		font-size: 1.8em;
-		overflow: hidden;
 	}
 	.Portfolio-section h2 {
 		font-size: 1.6em;
