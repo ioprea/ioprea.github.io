@@ -1,0 +1,169 @@
+body {
+	background-image: url('images/background.jpg');
+}
+
+.bodyContent {
+	width: 80%;
+	margin: 80px auto;
+}
+
+.leftContent {
+	float: left;
+	width: 40%;
+}
+
+.rightContent {
+	float: right;
+	width: 40%;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #f1f1f1;
+}
+#menu {
+    display: flex;  
+    color: #458B00;
+}
+
+#primaryMenu {
+	display: block;
+	margin: 0px auto;
+}
+
+#primaryMenu ul {
+	text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+#primaryMenu ul li {
+	vertical-align: middle;
+    float: left;
+    color: black;
+    display:inline-block;
+}
+
+#primaryMenu ul li a {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+#primaryMenu ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -20px;
+  padding: 14px;
+  transition: 0.5s ease;
+  /* border-radius: 0 2px 2px 0; */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  /* border-radius: 2px 0 0 2px; */
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: grey;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+footer {
+	vertical-align: top;
+	padding-top: 5em;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	bottom:0;
+	width:80%;
+	height:60px;   /* Height of the footer */
+}
+
+.social-icons{
+}
+.social-icons a img{
+	margin-right:0.5em;
+}
+.social-icons a img:hover{
+	opacity:0.8;
+}
